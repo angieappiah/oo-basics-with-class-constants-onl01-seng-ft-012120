@@ -1,6 +1,6 @@
-class Shoes 
-  def initialize (Shoes)
-    @Shoes= Shoes
+class Shoe 
+  def initialize (Shoe)
+    @Shoe= Shoe
   end
   
   attr_accessor :brands, :Shoe
@@ -20,7 +20,6 @@ class Shoes
       brands.each do |brand|
         Shoe.new(brand)
       end
-
     end
   end
 end
